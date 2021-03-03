@@ -11,5 +11,8 @@
   },
   "keywords": [],
   "author": "Roger",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
 }
