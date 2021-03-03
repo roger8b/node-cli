@@ -1,16 +1,15 @@
 {
-  "name": "node-cli",
+  "name": "@rogermartins/node-cli",
   "version": "1.0.0",
-  "description": "Simple node cli project",
-  "main": "index.js",
+  "description": "Projeto de caso de uso de CLI",
+  "bin": {
+    "@rogermartins/node-cli": "bin/node-cli",
+    "node-cli": "bin/node-cli"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github-roger:roger8b/node-cli"
-  },
   "keywords": [],
-  "author": "",
+  "author": "Roger",
   "license": "ISC"
 }
