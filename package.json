@@ -15,6 +15,7 @@
   "dependencies": {
     "@octokit/rest": "^18.3.1",
     "commander": "^7.1.0",
+    "enquirer": "^2.3.6",
     "esm": "^3.2.25"
   }
 }
