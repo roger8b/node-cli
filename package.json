@@ -1,21 +1,27 @@
 {
   "name": "@rogermartins/node-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Projeto de caso de uso de CLI",
   "bin": {
-    "@rogermartins/node-cli": "bin/node-cli",
     "node-cli": "bin/node-cli"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "cli"
+  ],
   "author": "Roger",
   "license": "ISC",
   "dependencies": {
     "@octokit/rest": "^18.3.1",
     "commander": "^7.1.0",
     "enquirer": "^2.3.6",
-    "esm": "^3.2.25"
+    "esm": "^3.2.25",
+    "node-cli": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-roger:roger8b/node-cli"
   }
 }
